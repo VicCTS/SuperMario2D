@@ -3,17 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - DeadZone
+  - ColisionGoomba
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Enemies
+  - PowerUps
+  - ColisionGoomba
   - 
   - 
   - 
