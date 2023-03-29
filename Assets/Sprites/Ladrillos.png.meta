@@ -220,7 +220,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -228,6 +228,27 @@ TextureImporter:
       bones: []
       spriteID: 948114be09daaed489e7935425fe49c9
       internalID: 55757815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ladrillos_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f67b3c5b415c2540920c9af5451989c
+      internalID: 1465226559
       vertices: []
       indices: 
       edges: []
@@ -245,6 +266,7 @@ TextureImporter:
     nameFileIdTable:
       Ladrillos_1: -795580344
       Ladrillos_3: 1107279054
+      Ladrillos_5: 1465226559
       Ladrillos_0: -1391812743
       Ladrillos_4: 55757815
       Ladrillos_2: -1279157308
