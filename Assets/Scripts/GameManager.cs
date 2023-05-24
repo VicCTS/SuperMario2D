@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public Text coinText;
     int coins;
 
-    public List<GameObject> enemiesInScreen = new List<GameObject>();
+    public List<GameObject> enemiesInScreen;
 
     void Update()
     {
@@ -78,9 +78,14 @@ public class GameManager : MonoBehaviour
 
     void KillAllEnemies()
     {
-        for (int i = 0; i < enemiesInScreen.Count; i++)
+        /*for (int i = 0; i < enemiesInScreen.Count; i++)
         {
             Destroy(enemiesInScreen[i]);
+        }*/
+
+        foreach (GameObject enemigo in enemiesInScreen)
+        {
+            Destroy(enemigo);
         }
     }
 }

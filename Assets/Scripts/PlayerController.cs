@@ -101,6 +101,12 @@ public class PlayerController : MonoBehaviour
             {
                 Attack();
             }
+
+
+            if(Input.GetKeyDown(KeyCode.Q))
+            {
+                Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+            }
         }    
         
     }
